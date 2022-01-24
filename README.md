@@ -13,6 +13,7 @@
 ## Exploratory Data Analysis (EDA) and Data Cleaning
 ![alt text](https://github.com/shrutimistry01/Car-Price-Predictor/blob/master/readme-resource/graph-year.png)
 ![alt text](https://github.com/shrutimistry01/Car-Price-Predictor/blob/master/readme-resource/feat-imps.png)
+
 • **Removed unwanted columns**: 'torque,name'<br/
 • **Plotted bargraphs and countplots** for numerical and categorical features respectively for EDA<br/>
 • **Numerical Features** (mileage,engine,max_power): **Replaced NaN or -1 values with mode or meadian based on their distribution and removed unwanted alphabet/special characters to convert into numerical value**<br/>
