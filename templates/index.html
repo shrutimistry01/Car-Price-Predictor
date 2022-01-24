@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
     <!-- Main css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
-<body>
+<body style="background-image: url({{ url_for('static', filename='images/car3.jpg') }})">
 
     <div class="main">
 
@@ -54,17 +54,14 @@
         <div class="form-submit">
             <input id="submit" class="submit" type="submit" name="submit" value="Calculate the Selling Price" />
         </div>
-            
+            <h1 style="color: green">{{ prediction_text }}<h1>
         </form>
      </div>
 
     </div>
 
-
-
-        <br><br><h3>{{ prediction_text }}<h3>
     </div>
-
+   
 
 </body>
 
